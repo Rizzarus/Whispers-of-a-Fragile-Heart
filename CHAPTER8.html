@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shattered Fragments - Chapter 1</title>
+  <style>
+    /* Add your own CSS styles here */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #000000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .container {
+      max-width: 800px;
+      padding: 20px;
+      border-radius: 5px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+    .button-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #4caf50;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 3px;
+      transition: background-color 0.3s ease;
+      margin: 0 10px;
+    }
+    .button:hover {
+      background-color: #45a049;
+    }
+    .dark-mode {
+      background-color: #333333;
+      color: #ffffff;
+    }
+  </style>
+  <script>
+    function toggleDarkMode() {
+      var body = document.querySelector('body');
+      body.classList.toggle('dark-mode');
+    }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <h1>Chapter 8: Chapter Title</h1>
+    <p>Your chapter content goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ullamcorper luctus nunc, vitae vestibulum purus posuere vel. Nulla feugiat magna a tristique pretium.</p>
+    
+    <div class="button-container">
+      <a class="button" href="CHAPTER7.html">Back</a>
+      <a class="button" href="Whispers of a Fragile Heart.html">Home</a>
+      <a class="button" href="CHAPTER9.html">Next Chapter</a>
+    </div>
+
+    <div class="button-container">
+      <button class="button" onclick="toggleDarkMode()">Toggle Dark Mode</button>
+    </div>
+  </div>
+</body>
+</html>
